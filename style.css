@@ -1,0 +1,32 @@
+/* Config for small screens: 320px */
+@media only screen and (min-width:320px) {
+  body {
+      min-height: 97vh;
+      overflow: auto;
+      background: linear-gradient(25deg, #4169E1, white);
+      padding-left: 0.5em;
+      padding-right: 0.5em;
+      margin: 0;
+      background-repeat: no-repeat;
+      font-family: 'DM Sans';
+      color: #330072;
+      font-weight: bolder;
+      user-select: none;
+      text-align: center;
+  }
+  .result {
+    height: 8vh;
+    font-size: 2em;
+    font-weight: 100;
+  }
+  .numberInput {
+    font-size: 1em;
+    width: 4em;
+    text-align: center;
+  }
+  .circle {
+    width: 16em;
+    height: 16em;
+  }
+}
+

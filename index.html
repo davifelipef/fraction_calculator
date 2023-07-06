@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <link href='https://fonts.googleapis.com/css?family=DM Sans' rel='stylesheet'>
+        <script src="script.js"></script>
+        <title>Calculadora de Frações</title>
+    </head>
+    <body>
+        <h1>Calculadora de Frações</h1>
+        <label>Resultado:</label>
+        <p id="result" class="result"></p>
+        <label>Digite o valor que deseja dividir:</label>
+        <p></p><input type="number" class="numberInput" id="userValue" onchange="numberCalc()"></p>
+        <label>Digite a fração que você deseja encontrar:</label>
+        <p><input type="number" class="numberInput" id="sliceCount" value="1" min="1" max="100" onchange="updateCircleSlices(), numberCalc()"></p>
+        <br>
+        <label>Representação visual:</label>
+        <p><svg id="circle" class="circle" viewBox="0 0 200 250"></svg></p>
+    </body>
+</html>
